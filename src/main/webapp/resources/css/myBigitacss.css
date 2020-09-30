@@ -1,0 +1,46 @@
+/*营销员模糊查询CSS*/
+.div-agentCode {
+	position: relative;
+}
+
+.agentCodeUl {
+	position: absolute;
+	background-color: #ffffff;
+	width: 150px;
+	z-index: 1001;
+	max-height: 200px;
+	overflow-y: scroll;
+	padding: 0 0 0 5px;
+	border-radius: 0 0 4px 4px;
+	border: 1px solid #e5e6e7;
+	margin: 0;
+	top: 37px;
+	display: none;
+}
+
+.agentCodeUl li {
+	list-style-type: none;
+	line-height: 15px;
+	word-wrap: break-word;
+	padding: 5px 6px;
+}
+
+.agentCodeUl li.highlighted {
+	background-color: #3875d7;
+	color: #ffffff;
+}
+
+/*查看财险公司归属机构和销售公司分支机构CSS*/
+ul.ztree {
+	margin-top: 10px;
+	border: 1px solid #617775;
+	background: #f0f6e4;
+	width: 220px;
+	height: 360px;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+
+.menuContent {
+	z-index: 9999999999;
+}

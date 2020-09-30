@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zl.demo.mapper.LoginLogMapper">
+    <resultMap id="BaseResultMap" type="com.zl.demo.entity.LoginLog">
+        <id column="id" jdbcType="VARCHAR" property="id" />
+        <result column="createdtime" jdbcType="TIMESTAMP" property="createdtime" />
+        <result column="updatedtime" jdbcType="TIMESTAMP" property="updatedtime" />
+        <result column="deleteflag" jdbcType="INTEGER" property="deleteflag" />
+        <result column="ip" jdbcType="VARCHAR" property="ip" />
+        <result column="browser" jdbcType="VARCHAR" property="browser" />
+        <result column="userId" jdbcType="VARCHAR" property="userId" />
+    </resultMap>
+
+    <!--查询用户上次登录时间-->
+<!--
+    <select id="getLastLoginTime" resultMap="BaseResultMap">
+        SELECT MAX(createdtime) FROM t_login_log WHERE deleteflag = 0 AND user_id = #{userId}
+    </select>
+-->
+
+</mapper>
