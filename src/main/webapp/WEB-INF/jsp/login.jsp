@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="description" content="BigitaLoginPage">
 
-	<title>业务管理系统</title>
+	<title>**管理系统</title>
 	<link rel="stylesheet" href="${ctx }/resources/css/login.css">
 	<link rel="stylesheet" href="${ctx }/resources/css/font-awesome.min.css">
 	<link rel="stylesheet" href="${ctx }/resources/css/bootstrap.min.css">
@@ -24,8 +24,8 @@
 <body>
 <div class="login-header clearfix">
 	<div class="login-logo">
-		<img class="header-logo pull-left" src="${ctx }/resources/images/loginLogo.png"/>
-		<p class="header-info pull-left">销售公司业务管理系统</p></div>
+		<%--<img class="header-logo pull-left" src="${ctx }/resources/images/loginLogo.png"/>--%>
+		<p class="header-info pull-left">**公司业务管理系统</p></div>
 </div>
 <div class="login-content">
 	<form role="form" id="login-form" action="${ctx}/login" method="post">

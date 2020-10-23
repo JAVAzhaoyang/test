@@ -13,7 +13,7 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>PICC销售公司业务管理系统</title>
+    <title>****公司业务管理系统</title>
 
     <!-- CSS文件 -->
     <link href="${ctx}/resources/css/bootstrap.min.css" rel="stylesheet">
@@ -161,7 +161,7 @@
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="${ctx}/index">
-                        <b style="color: #e8390e;">PICC</b>销售公司业务管理系统
+                        <b style="color: #e8390e;">**</b>**公司业务管理系统
                     </a>
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
